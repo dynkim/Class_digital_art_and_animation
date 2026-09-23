@@ -1,0 +1,627 @@
+{
+  "schemaVersion": 1,
+  "repositoryBaseUrl": "https://raw.githubusercontent.com/dynkim/Class_digital_art_and_animation/main/",
+  "slots": {
+    "s03-m01": {
+      "slide": 3,
+      "sourceSlide": 3,
+      "title": "오늘의 주제",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s05-m01": {
+      "slide": 5,
+      "sourceSlide": 5,
+      "title": "군사·설계 분야",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s05-m02": {
+      "slide": 5,
+      "sourceSlide": 5,
+      "title": "초기 컴퓨터 그래픽스",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s05-m03": {
+      "slide": 5,
+      "sourceSlide": 5,
+      "title": "게임과 그래픽스",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s06-m01": {
+      "slide": 6,
+      "sourceSlide": 6,
+      "title": "SAGE radar systems / MIT Whirlwind",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s06-m02": {
+      "slide": 6,
+      "sourceSlide": 6,
+      "title": "Tennis for Two",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s07-m01": {
+      "slide": 7,
+      "sourceSlide": 7,
+      "title": "Sketchpad",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s07-m02": {
+      "slide": 7,
+      "sourceSlide": 7,
+      "title": "Spacewar!",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s08-m01": {
+      "slide": 8,
+      "sourceSlide": 8,
+      "title": "1970s",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s09-m01": {
+      "slide": 9,
+      "sourceSlide": 9,
+      "title": "1970s · 자료 1",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s09-m02": {
+      "slide": 9,
+      "sourceSlide": 9,
+      "title": "1970s · 자료 2",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s09-m03": {
+      "slide": 9,
+      "sourceSlide": 9,
+      "title": "1970s · 자료 3",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s10-m01": {
+      "slide": 10,
+      "sourceSlide": 10,
+      "title": "Ivan Sutherland · David Evans",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s10-m02": {
+      "slide": 10,
+      "sourceSlide": 10,
+      "title": "유타 대학교의 연구자들",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s10-m03": {
+      "slide": 10,
+      "sourceSlide": 10,
+      "title": "컴퓨터 그래픽스와 산업",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s11-m01": {
+      "slide": 11,
+      "sourceSlide": 11,
+      "title": "Hand Animation",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s11-m02": {
+      "slide": 11,
+      "sourceSlide": 11,
+      "title": "Utah Teapot",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s12-m01": {
+      "slide": 12,
+      "sourceSlide": 12,
+      "title": "Voyager 2 Flyby of Saturn",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s13-m01": {
+      "slide": 13,
+      "sourceSlide": 13,
+      "title": "Ivan Sutherland의 HMD",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s14-m01": {
+      "slide": 14,
+      "sourceSlide": 14,
+      "title": "Digistar",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s15-m01": {
+      "slide": 15,
+      "sourceSlide": 15,
+      "title": "1980s",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s16-m01": {
+      "slide": 16,
+      "sourceSlide": 16,
+      "title": "1980s · 자료 1",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s16-m02": {
+      "slide": 16,
+      "sourceSlide": 16,
+      "title": "1980s · 자료 2",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s16-m03": {
+      "slide": 16,
+      "sourceSlide": 16,
+      "title": "1980s · 자료 3",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s17-m01": {
+      "slide": 17,
+      "sourceSlide": 17,
+      "title": "Silicon Graphics와 개인용 컴퓨터",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s18-m01": {
+      "slide": 18,
+      "sourceSlide": 17,
+      "title": "그래픽 연산 장치와 제작 환경",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s19-m01": {
+      "slide": 19,
+      "sourceSlide": 18,
+      "title": "Tron (1982)",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s20-m01": {
+      "slide": 20,
+      "sourceSlide": 19,
+      "title": "Tron에 참여한 네 개의 주요 CG 회사",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s21-m01": {
+      "slide": 21,
+      "sourceSlide": 20,
+      "title": "TV Commercial Demo Reels",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s22-m01": {
+      "slide": 22,
+      "sourceSlide": 21,
+      "title": "Where the Wild Things Are",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s23-m01": {
+      "slide": 23,
+      "sourceSlide": 22,
+      "title": "Stained Glass Knight",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s24-m01": {
+      "slide": 24,
+      "sourceSlide": 23,
+      "title": "Adobe System Inc. · John Warnock",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s24-m02": {
+      "slide": 24,
+      "sourceSlide": 23,
+      "title": "Thomas Knoll · John Knoll",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s25-m01": {
+      "slide": 25,
+      "sourceSlide": 24,
+      "title": "1980s · 참고 자료",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s26-m01": {
+      "slide": 26,
+      "sourceSlide": 25,
+      "title": "1990s",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s27-m01": {
+      "slide": 27,
+      "sourceSlide": 26,
+      "title": "1990s · 자료 1",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s27-m02": {
+      "slide": 27,
+      "sourceSlide": 26,
+      "title": "1990s · 자료 2",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s27-m03": {
+      "slide": 27,
+      "sourceSlide": 26,
+      "title": "1990s · 자료 3",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s28-m01": {
+      "slide": 28,
+      "sourceSlide": 27,
+      "title": "1990년대의 영화와 애니메이션",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s29-m01": {
+      "slide": 29,
+      "sourceSlide": 27,
+      "title": "DOOM · Quake · Super Mario 64",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s30-m01": {
+      "slide": 30,
+      "sourceSlide": 28,
+      "title": "Terminator 2 · T-1000",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s31-m01": {
+      "slide": 31,
+      "sourceSlide": 29,
+      "title": "Listerine “Arrows”",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s31-m02": {
+      "slide": 31,
+      "sourceSlide": 29,
+      "title": "Pixar의 그래픽 워크스테이션 · CAPS",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s32-m01": {
+      "slide": 32,
+      "sourceSlide": 30,
+      "title": "Toy Story",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s33-m01": {
+      "slide": 33,
+      "sourceSlide": 31,
+      "title": "Quake",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s34-m01": {
+      "slide": 34,
+      "sourceSlide": 32,
+      "title": "ZZT · Unreal",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s35-m01": {
+      "slide": 35,
+      "sourceSlide": 33,
+      "title": "2000s–2010s",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s36-m01": {
+      "slide": 36,
+      "sourceSlide": 34,
+      "title": "2000s–2010s · 자료 1",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s36-m02": {
+      "slide": 36,
+      "sourceSlide": 34,
+      "title": "2000s–2010s · 자료 2",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s36-m03": {
+      "slide": 36,
+      "sourceSlide": 34,
+      "title": "2000s–2010s · 자료 3",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s37-m01": {
+      "slide": 37,
+      "sourceSlide": 35,
+      "title": "하드웨어의 발전",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s37-m02": {
+      "slide": 37,
+      "sourceSlide": 35,
+      "title": "AAA 게임",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s37-m03": {
+      "slide": 37,
+      "sourceSlide": 35,
+      "title": "블록버스터 영화",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s38-m01": {
+      "slide": 38,
+      "sourceSlide": 36,
+      "title": "Transformer 1 (2007)",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s38-m02": {
+      "slide": 38,
+      "sourceSlide": 36,
+      "title": "Transformer 2 (2009)",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s39-m01": {
+      "slide": 39,
+      "sourceSlide": 37,
+      "title": "Avatar",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s40-m01": {
+      "slide": 40,
+      "sourceSlide": 38,
+      "title": "Crysis",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s41-m01": {
+      "slide": 41,
+      "sourceSlide": 39,
+      "title": "Uncharted 4",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s41-m02": {
+      "slide": 41,
+      "sourceSlide": 39,
+      "title": "Red Dead Redemption 2",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s42-m01": {
+      "slide": 42,
+      "sourceSlide": 40,
+      "title": "2020s",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s43-m01": {
+      "slide": 43,
+      "sourceSlide": 41,
+      "title": "2020s · 자료 1",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s43-m02": {
+      "slide": 43,
+      "sourceSlide": 41,
+      "title": "2020s · 자료 2",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s43-m03": {
+      "slide": 43,
+      "sourceSlide": 41,
+      "title": "2020s · 자료 3",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s44-m01": {
+      "slide": 44,
+      "sourceSlide": 42,
+      "title": "Uncharted 5 (2022)",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s44-m02": {
+      "slide": 44,
+      "sourceSlide": 42,
+      "title": "Mandalorian 1–3",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s45-m01": {
+      "slide": 45,
+      "sourceSlide": 43,
+      "title": "The Last of Us Part II Remastered",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s46-m01": {
+      "slide": 46,
+      "sourceSlide": 44,
+      "title": "Fortnite Concert",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s47-m01": {
+      "slide": 47,
+      "sourceSlide": 45,
+      "title": "Expedition 33",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    },
+    "s47-m02": {
+      "slide": 47,
+      "sourceSlide": 45,
+      "title": "Larian Studio · Divity",
+      "type": "image",
+      "src": "",
+      "alt": "",
+      "fit": "contain"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>3D 테크닉 I · 1주차</title>
+  <link rel="preload" href="./assets/fonts/Pretendard-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/Pretendard-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <main id="viewport" aria-label="강의 슬라이드">
+    <div id="stage" tabindex="-1"></div>
+    <p id="status" role="status">슬라이드를 불러오는 중입니다.</p>
+  </main>
+  <nav id="controls" aria-label="프레젠테이션 도구">
+    <button id="contents-button" type="button" aria-expanded="false" aria-controls="contents">목차</button>
+    <span class="control-divider" aria-hidden="true"></span>
+    <button id="previous" type="button" aria-label="이전 슬라이드" title="이전 · ←">이전</button>
+    <span id="counter" aria-live="polite">— / —</span>
+    <button id="next" type="button" aria-label="다음 슬라이드" title="다음 · →">다음</button>
+    <span class="control-divider" aria-hidden="true"></span>
+    <button id="fullscreen" type="button" title="전체 화면 · F">전체 화면</button>
+  </nav>
+  <aside id="contents" hidden aria-label="슬라이드 목차">
+    <div class="contents-heading"><h1>1주차 수업내용</h1><button id="contents-close" type="button">닫기</button></div>
+    <ol id="contents-list"></ol>
+  </aside>
+  <noscript>슬라이드를 보려면 브라우저에서 JavaScript를 켜 주세요.</noscript>
+</body>
+</html>
