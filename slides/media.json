@@ -16,8 +16,8 @@
       "sourceSlide": 5,
       "title": "군사·설계 분야",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p15_cg-1950s_1.png",
+      "alt": "군사·설계 분야",
       "fit": "contain"
     },
     "s05-m02": {
@@ -25,8 +25,8 @@
       "sourceSlide": 5,
       "title": "초기 컴퓨터 그래픽스",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p15_cg-1950s_2.png",
+      "alt": "초기 컴퓨터 그래픽스",
       "fit": "contain"
     },
     "s05-m03": {
@@ -34,8 +34,8 @@
       "sourceSlide": 5,
       "title": "게임과 그래픽스",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p15_cg-1950s_3.png",
+      "alt": "게임과 그래픽스",
       "fit": "contain"
     },
     "s06-m01": {
@@ -43,9 +43,13 @@
       "sourceSlide": 6,
       "title": "SAGE radar systems / MIT Whirlwind",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p16_sage-whirlwind_1.png",
+      "alt": "SAGE radar systems / MIT Whirlwind",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p16_sage-whirlwind_1.png",
+        "sources/history_of_cg/p16_sage-whirlwind_2.png"
+      ]
     },
     "s06-m02": {
       "slide": 6,
@@ -502,36 +506,54 @@
       "sourceSlide": 37,
       "title": "Avatar",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p50_avatar_1.png",
+      "alt": "Avatar",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p50_avatar_1.png",
+        "sources/history_of_cg/p50_avatar_2.png",
+        "sources/history_of_cg/p50_avatar_3.png"
+      ]
     },
     "s40-m01": {
       "slide": 40,
       "sourceSlide": 38,
       "title": "Crysis",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p49_crysis_1.png",
+      "alt": "Crysis",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p49_crysis_1.png",
+        "sources/history_of_cg/p49_crysis_2.png",
+        "sources/history_of_cg/p49_crysis_3.png"
+      ]
     },
     "s41-m01": {
       "slide": 41,
       "sourceSlide": 39,
       "title": "Uncharted 4",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p48_uncharted4-rdr_1.png",
+      "alt": "Uncharted 4",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p48_uncharted4-rdr_1.png",
+        "sources/history_of_cg/p48_uncharted4-rdr_2.png"
+      ]
     },
     "s41-m02": {
       "slide": 41,
       "sourceSlide": 39,
       "title": "Red Dead Redemption 2",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p48_uncharted4-rdr_3.png",
+      "alt": "Red Dead Redemption 2",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p48_uncharted4-rdr_3.png",
+        "sources/history_of_cg/p48_uncharted4-rdr_4.png"
+      ]
     },
     "s42-m01": {
       "slide": 42,
@@ -547,53 +569,73 @@
       "sourceSlide": 41,
       "title": "2020s · 자료 1",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p47_2020s_1.png",
+      "alt": "2020s · 자료 1",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p47_2020s_1.png",
+        "sources/history_of_cg/p47_2020s_2.png"
+      ]
     },
     "s43-m02": {
       "slide": 43,
       "sourceSlide": 41,
       "title": "2020s · 자료 2",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p47_2020s_3.png",
+      "alt": "2020s · 자료 2",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p47_2020s_3.png",
+        "sources/history_of_cg/p47_2020s_4.png"
+      ]
     },
     "s43-m03": {
       "slide": 43,
       "sourceSlide": 41,
       "title": "2020s · 자료 3",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p47_2020s_5.png",
+      "alt": "2020s · 자료 3",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p47_2020s_5.png",
+        "sources/history_of_cg/p47_2020s_6.png"
+      ]
     },
     "s44-m01": {
       "slide": 44,
       "sourceSlide": 42,
       "title": "Uncharted 5 (2022)",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p46_uncharted-mando_1.png",
+      "alt": "Uncharted 5 (2022)",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p46_uncharted-mando_1.png",
+        "sources/history_of_cg/p46_uncharted-mando_2.png"
+      ]
     },
     "s44-m02": {
       "slide": 44,
       "sourceSlide": 42,
       "title": "Mandalorian 1–3",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p46_uncharted-mando_3.png",
+      "alt": "Mandalorian 1–3",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p46_uncharted-mando_3.png",
+        "sources/history_of_cg/p46_uncharted-mando_4.png"
+      ]
     },
     "s45-m01": {
       "slide": 45,
       "sourceSlide": 43,
       "title": "The Last of Us Part II Remastered",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p45_tlou2-remaster.png",
+      "alt": "The Last of Us Part II Remastered",
       "fit": "contain"
     },
     "s46-m01": {
@@ -601,27 +643,41 @@
       "sourceSlide": 44,
       "title": "Fortnite Concert",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p44_fortnite-concert_1.png",
+      "alt": "Fortnite Concert",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p44_fortnite-concert_1.png",
+        "sources/history_of_cg/p44_fortnite-concert_2.png"
+      ]
     },
     "s47-m01": {
       "slide": 47,
       "sourceSlide": 45,
       "title": "Expedition 33",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p43_ai-debate_1.png",
+      "alt": "Expedition 33",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p43_ai-debate_1.png",
+        "sources/history_of_cg/p43_ai-debate_2.png",
+        "sources/history_of_cg/p43_ai-debate_3.png"
+      ]
     },
     "s47-m02": {
       "slide": 47,
       "sourceSlide": 45,
       "title": "Larian Studio · Divity",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p43_ai-debate_4.png",
+      "alt": "Larian Studio · Divity",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p43_ai-debate_4.png",
+        "sources/history_of_cg/p43_ai-debate_5.png",
+        "sources/history_of_cg/p43_ai-debate_6.png"
+      ]
     }
   }
 }
