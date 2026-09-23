@@ -51,36 +51,45 @@ function hydrateMedia(slide) {
   for (const frame of slide.querySelectorAll('[data-media-id]')) {
     if (frame.dataset.loaded) continue;
     const entry = state.media.slots[frame.dataset.mediaId];
-    if (!entry || !entry.src) continue;
-    let src;
-    try { src = mediaUrl(entry.src); } catch { continue; }
-    if (!src || !['image', 'video'].includes(entry.type)) continue;
+    if (!entry) continue;
+    const sources = Array.isArray(entry.srcs) && entry.srcs.length ? entry.srcs : [entry.src];
+    const urls = sources.map(source => {
+      try { return mediaUrl(source); } catch { return null; }
+    }).filter(Boolean);
+    if (!urls.length || !['image', 'video'].includes(entry.type)) continue;
     frame.dataset.loaded = 'true';
-    const asset = document.createElement(entry.type === 'video' ? 'video' : 'img');
-    asset.style.objectFit = entry.fit === 'cover' ? 'cover' : 'contain';
-    if (entry.type === 'video') {
-      asset.controls = true;
-      asset.playsInline = true;
-      asset.preload = 'none';
-      asset.setAttribute('aria-label', entry.alt || frame.getAttribute('aria-label'));
-    } else {
-      asset.alt = entry.alt || frame.getAttribute('aria-label');
-      asset.decoding = 'async';
+    const gallery = urls.length > 1 && entry.type === 'image';
+    if (gallery) frame.classList.add('media-gallery');
+    let failures = 0;
+    for (const src of urls) {
+      const asset = document.createElement(entry.type === 'video' ? 'video' : 'img');
+      asset.style.objectFit = entry.fit === 'cover' ? 'cover' : 'contain';
+      if (entry.type === 'video') {
+        asset.controls = true;
+        asset.playsInline = true;
+        asset.preload = 'none';
+        asset.setAttribute('aria-label', entry.alt || frame.getAttribute('aria-label'));
+      } else {
+        asset.alt = entry.alt || frame.getAttribute('aria-label');
+        asset.decoding = 'async';
+      }
+      const reveal = () => {
+        for (const label of frame.querySelectorAll('.media-label')) label.hidden = true;
+      };
+      asset.addEventListener(entry.type === 'video' ? 'loadedmetadata' : 'load', reveal, { once: true });
+      asset.addEventListener('error', () => {
+        asset.remove();
+        if (++failures === urls.length) {
+          for (const label of frame.querySelectorAll('.media-label')) label.hidden = false;
+          const error = document.createElement('p');
+          error.className = 'media-error';
+          error.textContent = '미디어를 불러올 수 없습니다.';
+          frame.append(error);
+        }
+      }, { once: true });
+      asset.src = src;
+      frame.append(asset);
     }
-    const reveal = () => {
-      for (const label of frame.querySelectorAll('.media-label')) label.hidden = true;
-    };
-    asset.addEventListener(entry.type === 'video' ? 'loadedmetadata' : 'load', reveal, { once: true });
-    asset.addEventListener('error', () => {
-      asset.remove();
-      for (const label of frame.querySelectorAll('.media-label')) label.hidden = false;
-      const error = document.createElement('p');
-      error.className = 'media-error';
-      error.textContent = '미디어를 불러올 수 없습니다.';
-      frame.append(error);
-    }, { once: true });
-    asset.src = src;
-    frame.append(asset);
   }
 }
 
