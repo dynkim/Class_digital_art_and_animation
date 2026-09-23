@@ -41,5 +41,5 @@ noscript{position:fixed;inset:40% 10%;font-size:20px;text-align:center}
 @media print{@page{size:960px 540px;margin:0}html,body{height:auto;overflow:visible;background:#fff}#viewport{position:static;display:block;overflow:visible}#stage{height:auto!important;transform:none!important}.slide,.slide[hidden]{position:relative;display:block;break-after:page;page-break-after:always}#controls,#contents,#status{display:none!important}}
 
 .media-frame.media-gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:minmax(0,1fr);gap:3px}
-.media-frame.media-gallery:has(img:nth-of-type(3)){grid-template-columns:repeat(3,minmax(0,1fr))}
+.media-frame.media-gallery-3,.media-frame.media-gallery-5,.media-frame.media-gallery-6{grid-template-columns:repeat(3,minmax(0,1fr))}
 .media-frame.media-gallery img{min-width:0;min-height:0}

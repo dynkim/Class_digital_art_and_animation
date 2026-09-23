@@ -47,8 +47,7 @@
       "alt": "SAGE radar systems / MIT Whirlwind",
       "fit": "contain",
       "srcs": [
-        "sources/history_of_cg/p16_sage-whirlwind_1.png",
-        "sources/history_of_cg/p16_sage-whirlwind_2.png"
+        "sources/history_of_cg/p16_sage-whirlwind_1.png"
       ]
     },
     "s06-m02": {
@@ -56,8 +55,8 @@
       "sourceSlide": 6,
       "title": "Tennis for Two",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p16_tennis_for_two.png",
+      "alt": "Tennis for Two",
       "fit": "contain"
     },
     "s07-m01": {
@@ -65,26 +64,34 @@
       "sourceSlide": 7,
       "title": "Sketchpad",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p17_sketchpad_1.jpg",
+      "alt": "Sketchpad",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p17_sketchpad_1.jpg",
+        "sources/history_of_cg/p17_sketchpad_2.jpg"
+      ]
     },
     "s07-m02": {
       "slide": 7,
       "sourceSlide": 7,
       "title": "Spacewar!",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p17_spacewar.jpg",
+      "alt": "Spacewar! and Steve Russell",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p17_spacewar.jpg",
+        "sources/history_of_cg/p17_steve_russell.jpg"
+      ]
     },
     "s08-m01": {
       "slide": 8,
       "sourceSlide": 8,
       "title": "1970s",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p19_university_of_utah.jpg",
+      "alt": "University of Utah computer graphics research",
       "fit": "contain"
     },
     "s09-m01": {
@@ -92,8 +99,8 @@
       "sourceSlide": 9,
       "title": "1970s · 자료 1",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p22_lambert.jpg",
+      "alt": "Lambert shading model",
       "fit": "contain"
     },
     "s09-m02": {
@@ -101,8 +108,8 @@
       "sourceSlide": 9,
       "title": "1970s · 자료 2",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p22_phong.jpg",
+      "alt": "Phong shading model",
       "fit": "contain"
     },
     "s09-m03": {
@@ -110,8 +117,8 @@
       "sourceSlide": 9,
       "title": "1970s · 자료 3",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p22_blinn.jpg",
+      "alt": "Blinn shading model",
       "fit": "contain"
     },
     "s10-m01": {
@@ -119,8 +126,8 @@
       "sourceSlide": 10,
       "title": "Ivan Sutherland · David Evans",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p20_Ivan Sutherland_David Evans.jpg",
+      "alt": "Ivan Sutherland and David Evans",
       "fit": "contain"
     },
     "s10-m02": {
@@ -128,26 +135,38 @@
       "sourceSlide": 10,
       "title": "유타 대학교의 연구자들",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p20_Henri Gouraud.jpg",
+      "alt": "University of Utah computer graphics researchers",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p20_Henri Gouraud.jpg",
+        "sources/history_of_cg/p20_John Warnock.jpg",
+        "sources/history_of_cg/p20_James Clark.jpg",
+        "sources/history_of_cg/p20_Alan Kay.jpg",
+        "sources/history_of_cg/p20_Bushnell.jpg",
+        "sources/history_of_cg/p20_Bui Tuong Phong.jpg"
+      ]
     },
     "s10-m03": {
       "slide": 10,
       "sourceSlide": 10,
       "title": "컴퓨터 그래픽스와 산업",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p20_early_shaders.jpg",
+      "alt": "Early computer graphics shaders",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p20_early_shaders.jpg",
+        "sources/history_of_cg/p20_blinnphong.jpg"
+      ]
     },
     "s11-m01": {
       "slide": 11,
       "sourceSlide": 11,
       "title": "Hand Animation",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p19_hand_anim_ed_catmull.jpg",
+      "alt": "Ed Catmull's Hand Animation",
       "fit": "contain"
     },
     "s11-m02": {
@@ -155,17 +174,21 @@
       "sourceSlide": 11,
       "title": "Utah Teapot",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/Untitled(5).jpg",
+      "alt": "Utah teapot",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/Untitled(5).jpg",
+        "sources/history_of_cg/Untitled(7).jpg"
+      ]
     },
     "s12-m01": {
       "slide": 12,
       "sourceSlide": 12,
       "title": "Voyager 2 Flyby of Saturn",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p22_Jim Blinn.jpg",
+      "alt": "Jim Blinn, creator of the Voyager 2 Flyby of Saturn animation",
       "fit": "contain"
     },
     "s13-m01": {
@@ -173,8 +196,8 @@
       "sourceSlide": 13,
       "title": "Ivan Sutherland의 HMD",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p23_Ivan Sutherland_hmd.jpg",
+      "alt": "Ivan Sutherland's early head-mounted display",
       "fit": "contain"
     },
     "s14-m01": {
@@ -182,17 +205,21 @@
       "sourceSlide": 14,
       "title": "Digistar",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p24_cosm.jpg",
+      "alt": "COSM and Digistar",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p24_cosm.jpg",
+        "sources/history_of_cg/p24_cosm2.jpg"
+      ]
     },
     "s15-m01": {
       "slide": 15,
       "sourceSlide": 15,
       "title": "1980s",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p26_tron.jpg",
+      "alt": "Tron poster representing 1980s computer graphics",
       "fit": "contain"
     },
     "s16-m01": {
@@ -200,8 +227,8 @@
       "sourceSlide": 16,
       "title": "1980s · 자료 1",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p26_sgi_logo.jpg",
+      "alt": "Silicon Graphics logo",
       "fit": "contain"
     },
     "s16-m02": {
@@ -209,17 +236,21 @@
       "sourceSlide": 16,
       "title": "1980s · 자료 2",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p26_luxo_jr_pixar.jpg",
+      "alt": "Pixar shorts Luxo Jr. and Tin Toy",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p26_luxo_jr_pixar.jpg",
+        "sources/history_of_cg/p26_baby_in_tin_toy_pixar.jpg"
+      ]
     },
     "s16-m03": {
       "slide": 16,
       "sourceSlide": 16,
       "title": "1980s · 자료 3",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p26_tron2.jpg",
+      "alt": "Tron computer graphics",
       "fit": "contain"
     },
     "s17-m01": {
@@ -227,44 +258,60 @@
       "sourceSlide": 17,
       "title": "Silicon Graphics와 개인용 컴퓨터",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p26_sgi.jpg",
+      "alt": "Silicon Graphics and its computer hardware",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p26_sgi.jpg",
+        "sources/history_of_cg/p26_sgi_computer.jpg"
+      ]
     },
     "s18-m01": {
       "slide": 18,
       "sourceSlide": 17,
       "title": "그래픽 연산 장치와 제작 환경",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p26_sgi_computer.jpg",
+      "alt": "Silicon Graphics computer used for graphics production",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p26_sgi_computer.jpg",
+        "sources/history_of_cg/p26_sgi.jpg"
+      ]
     },
     "s19-m01": {
       "slide": 19,
       "sourceSlide": 18,
       "title": "Tron (1982)",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p26_tron2.jpg",
+      "alt": "Tron (1982)",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p26_tron2.jpg",
+        "sources/history_of_cg/p26_tron3.jpg"
+      ]
     },
     "s20-m01": {
       "slide": 20,
       "sourceSlide": 19,
       "title": "Tron에 참여한 네 개의 주요 CG 회사",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p29_information_international.jpg",
+      "alt": "Computer graphics companies that worked on Tron",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p29_information_international.jpg",
+        "sources/history_of_cg/p29_magi.jpg"
+      ]
     },
     "s21-m01": {
       "slide": 21,
       "sourceSlide": 20,
       "title": "TV Commercial Demo Reels",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p29_abel.jpg",
+      "alt": "Abel and Associates, producer of television commercial demo reels",
       "fit": "contain"
     },
     "s22-m01": {
@@ -272,8 +319,8 @@
       "sourceSlide": 21,
       "title": "Where the Wild Things Are",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/P31_john_lasseter.jpg",
+      "alt": "John Lasseter, director of Where the Wild Things Are test animation",
       "fit": "contain"
     },
     "s23-m01": {
@@ -290,26 +337,34 @@
       "sourceSlide": 23,
       "title": "Adobe System Inc. · John Warnock",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p33_adobe_early_logo.jpg",
+      "alt": "Early Adobe logo and Adobe Illustrator",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p33_adobe_early_logo.jpg",
+        "sources/history_of_cg/p33_early_illustrator.jpg"
+      ]
     },
     "s24-m02": {
       "slide": 24,
       "sourceSlide": 23,
       "title": "Thomas Knoll · John Knoll",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p33_knoll_brothers.jpg",
+      "alt": "Thomas and John Knoll and early Photoshop",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p33_knoll_brothers.jpg",
+        "sources/history_of_cg/P33_early_photoshop.jpg"
+      ]
     },
     "s25-m01": {
       "slide": 25,
       "sourceSlide": 24,
       "title": "1980s · 참고 자료",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p34_paved_the_road.jpg",
+      "alt": "The 1980s paved the road for later computer graphics",
       "fit": "contain"
     },
     "s26-m01": {
@@ -317,8 +372,8 @@
       "sourceSlide": 25,
       "title": "1990s",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p36_matrix2.jpg",
+      "alt": "The Matrix representing 1990s computer graphics",
       "fit": "contain"
     },
     "s27-m01": {
@@ -326,62 +381,86 @@
       "sourceSlide": 26,
       "title": "1990s · 자료 1",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p36_forest_gump.jpg",
+      "alt": "1990s visual effects in Forrest Gump and Jurassic Park",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p36_forest_gump.jpg",
+        "sources/history_of_cg/p36_jurassic_park.jpg"
+      ]
     },
     "s27-m02": {
       "slide": 27,
       "sourceSlide": 26,
       "title": "1990s · 자료 2",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p36_terminator.jpg",
+      "alt": "Terminator 2 computer graphics",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p36_terminator.jpg",
+        "sources/history_of_cg/p36_terminator2.jpg"
+      ]
     },
     "s27-m03": {
       "slide": 27,
       "sourceSlide": 26,
       "title": "1990s · 자료 3",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p36_matrix.jpg",
+      "alt": "The Matrix and 1990s computer graphics",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p36_matrix.jpg",
+        "sources/history_of_cg/p36_matrix2.jpg"
+      ]
     },
     "s28-m01": {
       "slide": 28,
       "sourceSlide": 27,
       "title": "1990년대의 영화와 애니메이션",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p36_toystory.jpg",
+      "alt": "Toy Story and 1990s computer animation",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p36_toystory.jpg",
+        "sources/history_of_cg/p37_toystory2.jpg"
+      ]
     },
     "s29-m01": {
       "slide": 29,
       "sourceSlide": 27,
       "title": "DOOM · Quake · Super Mario 64",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p36_wolfenstein.jpg",
+      "alt": "Wolfenstein and Quake real-time game graphics",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p36_wolfenstein.jpg",
+        "sources/history_of_cg/p36_quake.jpg"
+      ]
     },
     "s30-m01": {
       "slide": 30,
       "sourceSlide": 28,
       "title": "Terminator 2 · T-1000",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p38_terminator3.jpg",
+      "alt": "Reference photography used to create the T-1000 in Terminator 2",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p38_terminator3.jpg",
+        "sources/history_of_cg/p38_terminator4.jpg"
+      ]
     },
     "s31-m01": {
       "slide": 31,
       "sourceSlide": 29,
       "title": "Listerine “Arrows”",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p39_pixar.jpg",
+      "alt": "Pixar, producer of the Listerine Arrows commercial",
       "fit": "contain"
     },
     "s31-m02": {
@@ -389,44 +468,63 @@
       "sourceSlide": 29,
       "title": "Pixar의 그래픽 워크스테이션 · CAPS",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p39_pixar_station.jpg",
+      "alt": "Pixar graphics workstation and Disney CAPS production",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p39_pixar_station.jpg",
+        "sources/history_of_cg/p39_beauty_and_beast.jpg"
+      ]
     },
     "s32-m01": {
       "slide": 32,
       "sourceSlide": 30,
       "title": "Toy Story",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p37_toystory2.jpg",
+      "alt": "Toy Story and Steve Jobs",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p37_toystory2.jpg",
+        "sources/history_of_cg/p40_steve_jobs.jpg",
+        "sources/history_of_cg/p40_steve_jobs2.jpg"
+      ]
     },
     "s33-m01": {
       "slide": 33,
       "sourceSlide": 31,
       "title": "Quake",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p41_John Carmack.jpg",
+      "alt": "John Carmack and the continuing influence of Quake",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p41_John Carmack.jpg",
+        "sources/history_of_cg/p41_quake_revival.jpg"
+      ]
     },
     "s34-m01": {
       "slide": 34,
       "sourceSlide": 32,
       "title": "ZZT · Unreal",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p42_ZZT.jpg",
+      "alt": "ZZT, Tim Sweeney, Epic Games, and Fortnite",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p42_ZZT.jpg",
+        "sources/history_of_cg/p42_tim_sweeny.jpg",
+        "sources/history_of_cg/p42_epicgames_logo.jpg",
+        "sources/history_of_cg/p42_fortnite.jpg"
+      ]
     },
     "s35-m01": {
       "slide": 35,
       "sourceSlide": 33,
       "title": "2000s–2010s",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p45_crysis.jpg",
+      "alt": "Crysis representing 2000s and 2010s computer graphics",
       "fit": "contain"
     },
     "s36-m01": {
@@ -434,8 +532,8 @@
       "sourceSlide": 34,
       "title": "2000s–2010s · 자료 1",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p45_farcry.jpg",
+      "alt": "Far Cry computer graphics",
       "fit": "contain"
     },
     "s36-m02": {
@@ -443,8 +541,8 @@
       "sourceSlide": 34,
       "title": "2000s–2010s · 자료 2",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p44_avatar.jpg",
+      "alt": "Avatar visual effects",
       "fit": "contain"
     },
     "s36-m03": {
@@ -452,8 +550,8 @@
       "sourceSlide": 34,
       "title": "2000s–2010s · 자료 3",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p44_transformer.jpg",
+      "alt": "Transformers visual effects",
       "fit": "contain"
     },
     "s37-m01": {
@@ -461,8 +559,8 @@
       "sourceSlide": 35,
       "title": "하드웨어의 발전",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p44_cuda.jpg",
+      "alt": "CUDA graphics hardware technology",
       "fit": "contain"
     },
     "s37-m02": {
@@ -470,26 +568,34 @@
       "sourceSlide": 35,
       "title": "AAA 게임",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p44_uncharted.jpg",
+      "alt": "Uncharted and The Last of Us as AAA games",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p44_uncharted.jpg",
+        "sources/history_of_cg/p45_tlou2-remaster.png"
+      ]
     },
     "s37-m03": {
       "slide": 37,
       "sourceSlide": 35,
       "title": "블록버스터 영화",
       "type": "image",
-      "src": "",
-      "alt": "",
-      "fit": "contain"
+      "src": "sources/history_of_cg/p44_avatar.jpg",
+      "alt": "Avatar and Transformers as blockbuster films",
+      "fit": "contain",
+      "srcs": [
+        "sources/history_of_cg/p44_avatar.jpg",
+        "sources/history_of_cg/p44_transformer.jpg"
+      ]
     },
     "s38-m01": {
       "slide": 38,
       "sourceSlide": 36,
       "title": "Transformer 1 (2007)",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p44_transformer.jpg",
+      "alt": "Transformers (2007)",
       "fit": "contain"
     },
     "s38-m02": {
@@ -497,8 +603,8 @@
       "sourceSlide": 36,
       "title": "Transformer 2 (2009)",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p44_transformer.jpg",
+      "alt": "Transformers: Revenge of the Fallen (2009)",
       "fit": "contain"
     },
     "s39-m01": {
@@ -560,8 +666,8 @@
       "sourceSlide": 40,
       "title": "2020s",
       "type": "image",
-      "src": "",
-      "alt": "",
+      "src": "sources/history_of_cg/p47_2020s_1.png",
+      "alt": "2020s computer graphics",
       "fit": "contain"
     },
     "s43-m01": {

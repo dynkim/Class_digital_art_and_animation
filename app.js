@@ -59,7 +59,7 @@ function hydrateMedia(slide) {
     if (!urls.length || !['image', 'video'].includes(entry.type)) continue;
     frame.dataset.loaded = 'true';
     const gallery = urls.length > 1 && entry.type === 'image';
-    if (gallery) frame.classList.add('media-gallery');
+    if (gallery) frame.classList.add('media-gallery', `media-gallery-${urls.length}`);
     let failures = 0;
     for (const src of urls) {
       const asset = document.createElement(entry.type === 'video' ? 'video' : 'img');
