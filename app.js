@@ -213,7 +213,7 @@ async function start() {
       return slide;
     });
     $('stage').append(fragment);
-    await Promise.all([document.fonts.load('400 16px Pretendard'), document.fonts.load('700 16px Pretendard')]);
+    await Promise.allSettled([document.fonts.load('400 16px Pretendard'), document.fonts.load('700 16px Pretendard')]);
     $('status').hidden = true;
     bindControls();
     showSlide(hashIndex()); fitStage();
